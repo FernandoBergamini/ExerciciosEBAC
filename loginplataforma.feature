@@ -16,15 +16,13 @@
             Entao deve exibir uma msg de alerta "usuario ou senha inválidos"
 
             Esquema do Cenario: validar cadastro válido
-            Quando eu digitar o usuario <usuario>
-            E a senha <senha>
+            Quando eu digitar <usuario> e senha <senha>
             Entao deve exibir uma <mensagem>
 
             Exemplos:
-            | usuario               | senha       | mensagem                     |
-            | "joao@ebac.com.br"    | "teste@123" | "ola João"                   |
-            | "ana@ebac.com.br"     | "teste@123" | "ola Ana"                    |
-            | "pkmkfe,@ebac.com.br" | "test"      | "usuario ou senha inválidos" |
-            | "laura@ebac.com.br"   | "teste@123" | "ola Laura"                  |
-            
+            | usuario                  | senha         | mensagem    |
+            | "joao_sousa@ebac.com.br" | "Joao#2345S5" | "olá João"  |
+            | "ana.silva@ebac.com.br"  | "123@teste"   | "olá Ana"   |
+            | "laura@ebac.com.br"      | "teste.123"   | "olá Laura" |
+
 
